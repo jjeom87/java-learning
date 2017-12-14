@@ -1,4 +1,4 @@
-package net.sunj.learning.tutorials.sunj.io.file;
+package net.sunj.learning.tutorials.io.file;
 
 import java.io.InputStream;
 
