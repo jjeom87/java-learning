@@ -6,9 +6,8 @@ import static org.junit.Assert.assertThat;
 
 import org.hamcrest.core.IsNull;
 import org.junit.Test;
-
-import net.sunj.learning.tutorials.sunj.annotation.MyContextContainer;
-import net.sunj.learning.tutorials.sunj.annotation.MyObject;
+import net.sunj.learning.tutorials.annotation.MyContextContainer;
+import net.sunj.learning.tutorials.annotation.MyObject;
 
 public class AnnotationTest {
 	@Test
