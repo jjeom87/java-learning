@@ -1,6 +1,6 @@
 package net.sunj.learning.tutorials.innerclass;
 
-public class InnerTest2 {
+public class InnerClassExample3 {
 	private int outerIv = 0;
 	static int outerCv = 0;
 

@@ -1,6 +1,6 @@
 package net.sunj.learning.tutorials.innerclass;
 
-public class InnerTest3 {
+public class InnerClassExample4 {
 	Object iv = new Object() {
 		void method() {
 		}

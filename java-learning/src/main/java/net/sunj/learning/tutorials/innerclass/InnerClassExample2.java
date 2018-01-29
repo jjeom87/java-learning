@@ -1,6 +1,6 @@
 package net.sunj.learning.tutorials.innerclass;
 
-public class InnerTest {
+public class InnerClassExample2 {
 	class InstanceInner {
 	}
 
@@ -16,7 +16,7 @@ public class InnerTest {
 		StaticInner obj2 = new StaticInner();
 
 		// 굳이 접근하려면 아래와 같이 객체를 생성해야한다.
-		InnerTest outer = new InnerTest(); // 인스턴스클래스는 외부 클래스를 먼저 생성해야만 생성할 수
+		InnerClassExample2 outer = new InnerClassExample2(); // 인스턴스클래스는 외부 클래스를 먼저 생성해야만 생성할 수
 											// 있다.
 		InstanceInner obj1 = outer.new InstanceInner();
 	} // staticMethod

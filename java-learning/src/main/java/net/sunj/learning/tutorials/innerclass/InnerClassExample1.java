@@ -17,7 +17,7 @@ class Outer {
 		}
 	}
 }
-public class InnerClassExam {
+public class InnerClassExample1 {
 
 	public static void main(String[] args) {
 		Inner i = new Outer().new Inner();
