@@ -1,0 +1,1 @@
+ http://jdm.kr/blog/
