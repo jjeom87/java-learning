@@ -4,7 +4,7 @@ import org.sunj.designpatterns.templatemethod.framework.Archer;
 import org.sunj.designpatterns.templatemethod.framework.Warrior;
 import org.sunj.designpatterns.templatemethod.framework.Wizard;
 
-public class TemplateClient {
+public class TemplateMethodClient {
 
   public static void main(String[] args) {
 
