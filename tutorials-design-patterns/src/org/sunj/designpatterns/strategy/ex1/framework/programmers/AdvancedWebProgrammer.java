@@ -1,7 +1,7 @@
-package org.sunj.designpatterns.strategy.framework.programmers;
+package org.sunj.designpatterns.strategy.ex1.framework.programmers;
 
-import org.sunj.designpatterns.strategy.framework.skills.AdvancedServerSide;
-import org.sunj.designpatterns.strategy.framework.skills.AdvancedWebClientSide;
+import org.sunj.designpatterns.strategy.ex1.framework.skills.AdvancedServerSide;
+import org.sunj.designpatterns.strategy.ex1.framework.skills.AdvancedWebClientSide;
 
 public class AdvancedWebProgrammer extends Programmer {
 

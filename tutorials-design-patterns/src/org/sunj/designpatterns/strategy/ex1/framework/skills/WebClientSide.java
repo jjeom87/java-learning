@@ -1,4 +1,4 @@
-package org.sunj.designpatterns.strategy.framework.skills;
+package org.sunj.designpatterns.strategy.ex1.framework.skills;
 
 public class WebClientSide implements ClientSide {
 

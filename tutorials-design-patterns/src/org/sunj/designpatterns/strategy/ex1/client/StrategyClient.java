@@ -1,11 +1,11 @@
-package org.sunj.designpatterns.strategy.client;
+package org.sunj.designpatterns.strategy.ex1.client;
 
-import org.sunj.designpatterns.strategy.framework.programmers.AdvancedWebProgrammer;
-import org.sunj.designpatterns.strategy.framework.programmers.AmateurProgrammer;
-import org.sunj.designpatterns.strategy.framework.programmers.Programmer;
-import org.sunj.designpatterns.strategy.framework.programmers.WebProgrammer;
-import org.sunj.designpatterns.strategy.framework.skills.AdvancedServerSide;
-import org.sunj.designpatterns.strategy.framework.skills.WebClientSide;
+import org.sunj.designpatterns.strategy.ex1.framework.programmers.AdvancedWebProgrammer;
+import org.sunj.designpatterns.strategy.ex1.framework.programmers.AmateurProgrammer;
+import org.sunj.designpatterns.strategy.ex1.framework.programmers.Programmer;
+import org.sunj.designpatterns.strategy.ex1.framework.programmers.WebProgrammer;
+import org.sunj.designpatterns.strategy.ex1.framework.skills.AdvancedServerSide;
+import org.sunj.designpatterns.strategy.ex1.framework.skills.WebClientSide;
 
 public class StrategyClient {
 
