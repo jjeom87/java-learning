@@ -1,4 +1,4 @@
-package org.sunj.refactoring.ch01;
+package org.sunj.refactoring.ch01.origin;
 
 import java.util.Enumeration;
 import java.util.Vector;
@@ -26,7 +26,7 @@ public class Customer {
     String result = "Rental Record for " + getName() + "\n";
     while (rentals.hasMoreElements()) {
       double thisAmount = 0;
-      Rental each = (Rental) rentals.nextElement();
+      Rental each = rentals.nextElement();
       // determine amounts for each line
       switch (each.getMovie().getPriceCode()) {
         case Movie.REGULAR:

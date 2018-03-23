@@ -1,4 +1,4 @@
-package org.sunj.refactoring.ch01;
+package org.sunj.refactoring.ch01.origin;
 
 public class Movie {
   public static final int CHILDRENS = 2;

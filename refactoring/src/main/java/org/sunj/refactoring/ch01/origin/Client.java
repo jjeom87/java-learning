@@ -1,4 +1,4 @@
-package org.sunj.refactoring.ch01;
+package org.sunj.refactoring.ch01.origin;
 
 import org.junit.Test;
 
