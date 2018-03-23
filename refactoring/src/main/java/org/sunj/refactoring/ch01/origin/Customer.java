@@ -23,11 +23,11 @@ public class Customer {
     double totalAmount = 0;
     int frequentRenterPoints = 0;
     Enumeration<Rental> rentals = _rentals.elements();
-    String result = "Rental Record for " + getName() + "\n";
+    String result = getName() + " 고객님의 대여 기록\n";
     while (rentals.hasMoreElements()) {
       double thisAmount = 0;
       Rental each = rentals.nextElement();
-      // determine amounts for each line
+      // 비디오 종류별 대여료 계산
       switch (each.getMovie().getPriceCode()) {
         case Movie.REGULAR:
           thisAmount += 2;
@@ -43,18 +43,20 @@ public class Customer {
             thisAmount += (each.getDaysRented() - 3) * 1.5;
           break;
       }
-      // add frequent renter points
+      // 적립 포인트를 1 포인트 증가
       frequentRenterPoints++;
-      // add bonus for a two day new release rental
+      // 최신물을 이틀 이상 대여하면 보너스 포인트 지급
       if ((each.getMovie().getPriceCode() == Movie.NEW_RELEASE) && each.getDaysRented() > 1)
         frequentRenterPoints++;
-      // show figures for this rental
+      // 이번에 대여하는 비디오 정보와 대여료를 출력
       result += "\t" + each.getMovie().getTitle() + "\t" + String.valueOf(thisAmount) + "\n";
+      // 현재까지 누적된 총 대여료
       totalAmount += thisAmount;
     }
-    // add footer lines
-    result += "Amount owed is " + String.valueOf(totalAmount) + "\n";
-    result += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
+
+    // 푸터 행 추가
+    result += "누적 대여료 : " + String.valueOf(totalAmount) + "\n";
+    result += "적립 포인트 : " + String.valueOf(frequentRenterPoints);
     return result;
   }
 }
