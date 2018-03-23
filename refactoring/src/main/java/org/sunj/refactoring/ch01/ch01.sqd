@@ -390,7 +390,7 @@
                                   <net.java.amateras.uml.sequencediagram.model.LifeLineModel reference="../../.."/>
                                 </children>
                                 <filterProperty/>
-                                <name>Instance9</name>
+                                <name></name>
                                 <lifeLine reference="../.."/>
                                 <root reference="../../../../../../../../../../../../../../../.."/>
                               </owner>
