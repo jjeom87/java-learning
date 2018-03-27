@@ -51,9 +51,23 @@ public class CamelToUnderScore {
       e.printStackTrace();
     }
 
-    String[] str = new String[] {"msg_ref_no", "msg_seq", "msg_type", "msg_ref_type", "msg_ttl",
-        "msg_cntn", "sender", "sender_type", "send_org_cd", "send_cus_cd", "send_user_cd",
-        "receiver", "rcv_cus_cd", "rcv_user_nm", "send_status", "send_rslt_msg", "reg_dt"};
+    String[] str = new String[] {"msg_ref_no"
+        ,"msg_seq"
+        ,"msg_type"
+        ,"msg_ref_type"
+        ,"msg_ttl"
+        ,"msg_cntn"
+        ,"sender"
+        ,"sender_type"
+        ,"send_org_cd"
+        ,"send_cus_cd"
+        ,"send_user_cd"
+        ,"receiver"
+        ,"rcv_cus_cd"
+        ,"rcv_user_nm"
+        ,"send_status"
+        ,"send_rslt_msg"
+        ,"reg_dt"};
     
     for (String string : str) {
       underCoreToCamel(string);
