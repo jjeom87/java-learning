@@ -30,7 +30,7 @@ public class FileReaderTester extends TestCase {
       ch = (char) _input.read();
     }
     assertEquals('d', ch);
-  }
+  } 
 
   @Override
   protected void tearDown() throws Exception {
