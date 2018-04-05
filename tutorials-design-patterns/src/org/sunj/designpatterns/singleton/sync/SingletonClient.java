@@ -7,6 +7,7 @@ public class SingletonClient {
     Singleton singleton2 = Singleton.getInstance();
     System.out.println(singleton1);
     System.out.println(singleton2);
+    System.out.println("안녕하세요");
   }
 
 }

@@ -8,7 +8,6 @@ import org.sunj.designpatterns.strategy.ex2.animal.Turtle;
 public class PlayAnimal {
 
   public static void main(String[] args) { // main 함수 실행
-
     Animal tiger = new Tiger(); // Animal 클래스를 상속받은 Tiger 객체 생성
 
     tiger.display(); // Tiger의 display() 함수 실행
