@@ -2,11 +2,11 @@
 
 
 public interface GenericService<T> {
-	T add(T entity);
+  T add(T entity);
 
-	T update(T entity);
+  T update(T entity);
 
-	void delete(int id);
+  void delete(int id);
 
-	T get(int id);
+  T get(int id);
 }
