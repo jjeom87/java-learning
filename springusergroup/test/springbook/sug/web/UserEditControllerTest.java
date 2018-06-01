@@ -31,7 +31,7 @@ import springbook.sug.domain.User;
 
 
 /**
- * »ç¿ëÀÚ  ¼öÁ¤ ÅëÇÕ Å×½ºÆ® 
+ * ì‚¬ìš©ì  ìˆ˜ì • í†µí•© í…ŒìŠ¤íŠ¸ 
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"/test-applicationContext.xml", "/test-springusergroup-servlet.xml"})

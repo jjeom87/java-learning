@@ -21,7 +21,7 @@ import springbook.sug.web.security.LoginInfo;
 import springbook.sug.web.validator.LoginValidator;
 
 /**
- * ÄÁÆ®·Ñ·¯ ´ÜÀ§ Å×½ºÆ®
+ * ì‚¬ìš©ì  ìˆ˜ì • í†µí•© í…ŒìŠ¤íŠ¸ 
  */
 public class LoginControllerTest {
 	LoginController loginController;

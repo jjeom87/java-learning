@@ -18,8 +18,8 @@ public class FieldInjectUtilsTest {
 		assertThat(b.getBean(), is(bb));
 	}
 	
-	// µ¶ÀÚ¸¦ À§ÇÑ TODO
-	// Å¸ÀÔ¿¡ ÀÇÇÑ inject()ÀÇ °æ¿ì °°Àº Å¸ÀÔÀÌ µÎ °³ ÀÌ»ó ÀÖÀ» ¶§´Â ¿¹¿Ü°¡ ¹ß»ıÇÏµµ·Ï ¸¸µé¾î º¾½Ã´Ù.
+	// ë…ìë¥¼ ìœ„í•œ TODO
+    // íƒ€ì…ì— ì˜í•œ inject()ì˜ ê²½ìš° ê°™ì€ íƒ€ì…ì´ ë‘ ê°œ ì´ìƒ ìˆì„ ë•ŒëŠ” ì˜ˆì™¸ê°€ ë°œìƒí•˜ë„ë¡ ë§Œë“¤ì–´ ë´…ì‹œë‹¤.
 	
 	@Test
 	public void FieldInjectByName() {
