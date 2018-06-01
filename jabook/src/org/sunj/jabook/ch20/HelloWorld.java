@@ -2,7 +2,7 @@
 
 public class HelloWorld {
 	static {
-		System.loadLibrary("helloworld");
+		System.loadLibrary("helloworld!");
 		System.out.println("=== library was loaded");
 	}
 
